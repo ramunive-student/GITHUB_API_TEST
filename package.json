@@ -1,0 +1,19 @@
+{
+  "name": "github-api-test",
+  "description": "Github App microservice api Automation",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "Local for now",
+  "scripts": {
+    "test": "mocha \"test/**/*.test.js\" --timeout 60000 --exit"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "faker": "^4.1.0",
+    "mocha": "^5.2.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.23",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
